@@ -1,7 +1,9 @@
 {
   "scripts": {
     "lint": "eslint src/",
-    "lint:fix": "eslint --fix src/"
+    "lint:fix": "eslint --fix src/",
+    "fmt": "prettier -c src/",
+    "fmt:fix": "prettier -w src/"
   },
   "devDependencies": {
     "@types/webpack": "^5.28.0",
