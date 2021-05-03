@@ -1,5 +1,3 @@
-(() => {
-  const message = "hello, world";
-
-  alert(message);
-})();
+export const sum
+  = (...a: number[]) =>
+    a.reduce((acc, val) => acc + val, 0);
