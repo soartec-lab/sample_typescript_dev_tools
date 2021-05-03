@@ -1,5 +1,5 @@
 (() => {
-  const message: string = "hello, world"
+  const message = "hello, world"
 
   alert(message)
 })();
