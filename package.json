@@ -1,5 +1,7 @@
 {
   "scripts": {
+    "build": "rm -fr ./dist && webpack --stats-error-details",
+    "build:production": "rm -fr ./dist && NODE_ENV=production webpack --stats-error-details",
     "lint": "eslint src/",
     "lint:fix": "eslint --fix src/",
     "fmt": "prettier -c src/",
