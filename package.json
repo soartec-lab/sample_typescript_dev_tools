@@ -5,7 +5,8 @@
     "lint": "eslint src/",
     "lint:fix": "eslint --fix src/",
     "fmt": "prettier -c src/",
-    "fmt:fix": "prettier -w src/"
+    "fmt:fix": "prettier -w src/",
+    "test": "jest test"
   },
   "devDependencies": {
     "@types/jest": "^26.0.23",
