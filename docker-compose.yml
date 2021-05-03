@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  app:
+    image: node:15.14.0-alpine
+    container_name: sample_typescript_dev_tools
+    volumes:
+      - ./:/app
+    working_dir: /app
+    tty: true
+    stdin_open: true
+    entrypoint: /bin/sh -c "yarn && apk add bash && bash"
